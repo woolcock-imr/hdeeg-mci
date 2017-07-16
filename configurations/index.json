@@ -14,7 +14,7 @@
 	"panels":
 	{
 		"main":{
-			"config_url":"https://woolcock-imr.github.io/hdeeg-mci/configurations/main-panel.json"
+			"config_url":"/configurations/main-panel.json"
 		}
 	}
 }

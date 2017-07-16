@@ -39,7 +39,8 @@
 							if(url.indexOf('?')==-1) url=url+"?_v="+$vm.version;
 							else url=url+"&_v="+$vm.version;
 							url=$vm.url(url);
-							console.log('LOAD CONFIG '+url.split('/').pop());
+							if(url[0]=='/') url=$vm.module_hosting_path+url;
+							console.log('loading '+url);
 							$.get(url,function(text){
 								var text=$('<div/>').html(text).text();
 								//---------------------------
@@ -105,7 +106,7 @@
 					td.html("<u style='cursor:pointer'>Quest</u>");
 					td.find('u').on('click',function(){
 						var d="";
-						if($vm.server=='development') d="&server=development";
+						if($vm.server=='development') d="&database=development";
 						var p="?username="+records[I].S2+"&password="+records[I].S3+d;
 						var q_url="https://woolcock-imr.github.io/online-questionnaire/index.html"+p;
 						q_url=$vm.url(q_url)
