@@ -45,41 +45,340 @@
 						]
 					}
 				]
-			}
-			,{
-				"sections":
-				[
-					{
-						"name":"Tasks",
-						"modules":
-						[
+			},
+			{
+				"sections": [{
+						"name": "General information",
+						"modules": [{
+								"module_id": "Ethnicity",
+								"name": "Ethnicity",
+								"table_id": "20011120",
+								"url": "/modules/task/ethnicity.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Ethnicity_form"
+							},
 							{
-								"module_id":"task1",
-								"name":"Task 1",
-								"table_id":"20011120",
-								"url":"/modules/task/under_construction.html",
-								"counting":"1",
-								"quest":"1",
-								"form_module":"task1_form"
+								"module_id": "Ethnicity_form",
+								"table_id": "20011120",
+								"url": "/modules/task/ethnicity.form.html"
+							},
+							{
+								"module_id": "Lifestyle",
+								"name": "Lifestyle",
+								"table_id": "20011121",
+								"url": "/modules/task/lifestyle.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Lifestyle_form"
+							},
+							{
+								"module_id": "Lifestyle_form",
+								"table_id": "20011121",
+								"url": "/modules/task/lifestyle.form.html"
+							},
+							{
+								"module_id": "Education",
+								"name": "Education",
+								"table_id": "20011120",
+								"url": "/modules/task/education.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Education_form"
+							},
+							{
+								"module_id": "Education_form",
+								"table_id": "20011120",
+								"url": "/modules/task/education.form.html"
+							},
+							{
+								"module_id": "Medical_history",
+								"name": "Medical history",
+								"table_id": "20011120",
+								"url": "/modules/task/medical_history.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Medical_history_form"
+							},
+							{
+								"module_id": "Medical_history_form",
+								"table_id": "20011120",
+								"url": "/modules/task/medical_history.form.html"
 							}
-							,{
-								"module_id":"task1_form",
-								"table_id":"20011120",
-								"url":"/modules/task/under_construction.form.html"
+						]
+					},
+					{
+						"name": "Adverse Events & Concom",
+						"modules": [{
+								"module_id": "Adverse_events",
+								"name": "Adverse Events",
+								"table_id": "20011120",
+								"url": "/modules/task/Adverse_Event.html",
+								"counting": "1"
+							},
+							{
+								"module_id": "Concom_meds",
+								"name": "Concomitant Medications",
+								"table_id": "20011120",
+								"url": "/modules/task/Concom_Medication.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Concom_form"
+							},
+							{
+								"module_id": "Concom_form",
+								"table_id": "20011120",
+								"url": "/modules/task/Concom_Medication.form.html"
 							}
-							,{
-								"module_id":"task2",
-								"name":"Task 2",
-								"table_id":"20011121",
-								"url":"/modules/task/under_construction.html",
-								"counting":"1",
-								"quest":"1",
-								"form_module":"task1_form"
+						]
+					},
+					{
+						"name": "Screening",
+						"modules": [{
+								"module_id": "Visit_date",
+								"name": "Visit Date",
+								"table_id": "20011120",
+								"url": "/modules/task/Visit_date.html",
+								"counting": "1"
+							},
+							{
+								"module_id": "Anthropometry",
+								"name": "Antrhopometry",
+								"table_id": "20011120",
+								"url": "/modules/task/under_construction.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "antrho_form"
+							},
+							{
+								"module_id": "anthro_form",
+								"table_id": "20011120",
+								"url": "/modules/task/anthro.form.html"
+							},
+							{
+								"module_id": "ESS",
+								"name": "Epworth Sleepiness Scale (ESS)",
+								"table_id": "20011120",
+								"url": "/modules/task/Epworth_Sleepiness_Scale.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "ESS_form"
+							},
+							{
+								"module_id": "ESS_form",
+								"table_id": "20011120",
+								"url": "/modules/task/Epworth_Sleepiness_Scale.form.html"
+							},
+							{
+								"module_id": "Concom_meds",
+								"name": "Concomitant Medications",
+								"table_id": "20011120",
+								"url": "/modules/task/Concom_Medication.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Concom_form"
+							},
+							{
+								"module_id": "Concom_form",
+								"table_id": "20011120",
+								"url": "/modules/task/Concom_Medication.form.html"
+							},
+							{
+								"module_id": "Sleep_diary",
+								"name": "Sleep Diary",
+								"table_id": "20011120",
+								"url": "/modules/task/under_construction.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "Sleep_Diary_form"
+							},
+							{
+								"module_id": "Sleep_Diary_form",
+								"table_id": "20011120",
+								"url": "/modules/task/under_construction.form.html"
+							},
+							{
+								"module_id": "DiagPSG_Report",
+								"name": "PSG Research Report",
+								"table_id": "20011120",
+								"url": "/modules/task/under_construction.html",
+								"counting": "1"
+							},
+							{
+								"module_id": "IncluExclu",
+								"name": "Inclusion Exclusion Criteria ",
+								"table_id": "20011120",
+								"url": "/modules/task/IncluExclu.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "IncluExclu_form"
+							},
+							{
+								"module_id": "IncluExclu_form",
+								"table_id": "20011120",
+								"url": "/modules/task/IncluExclu.form.html"
 							}
-							,{
-								"module_id":"task1_form",
-								"table_id":"20011121",
-								"url":"/modules/task/under_construction.form.html"
+						]
+					}
+				]
+			},
+			{
+							"sections": [{
+							"name": "Baseline Visit",
+							"modules": [{
+
+							"module_id": "BL_Visit_date",
+							"name": "Visit Date",
+							"table_id": "20011120",
+							"url": "/modules/task/Visit_date.html",
+							"counting": "1"
+						},
+						{
+							"module_id": "BL_Anthro",
+							"name": "Anthropometry",
+							"table_id": "20011120",
+							"url": "/modules/task/Anthro.html",
+							"counting": "1"
+						},
+						{
+							"module_id": "BL_ESS",
+							"name": "Epworth Sleepiness Scale (ESS)",
+							"table_id": "20011120",
+							"url": "/modules/task/Epworth_Sleepiness_Scale.html",
+							"counting": "1",
+							"quest": "1",
+							"form_module": "BL_ESS_form"
+						},
+						{
+							"module_id": "BL_ESS_form",
+							"table_id": "20011120",
+							"url": "/modules/task/Epworth_Sleepiness_Scale.form.html"
+						},
+						{
+							"module_id": "BL_ISI",
+							"name": "Insomnia Severity Index (ISI)",
+							"table_id": "20011120",
+							"url": "/modules/task/Insomnia_Severity_Index.html",
+							"counting": "1",
+							"quest": "1",
+							"form_module": "BL_ISI_form"
+						},
+						{
+							"module_id": "BL_ISI_form",
+							"table_id": "20011120",
+							"url": "/modules/task/Insomnia_Severity_Index.form.html"
+						},
+						{
+							"module_id": "BL_PSQI",
+							"name": "Pittsburgh Sleep Quality Index (PSQI)",
+							"table_id": "20011120",
+							"url": "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
+							"counting": "1",
+							"quest": "1",
+							"form_module": "BL_PSQI_form"
+						},
+						{
+							"module_id": "BL_PSQI_form",
+							"table_id": "20011120",
+							"url": "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
+						},
+						{
+							"module_id": "BL_DASS",
+							"name": "Depression Anxiety Stress Scale (DASS-21)",
+							"table_id": "20011120",
+							"url": "/modules/task/dass.html",
+							"counting": "1",
+							"quest": "1",
+							"form_module": "BL_DASS_FORM"
+						},
+						{
+							"module_id": "BL_DASS_FORM",
+							"table_id": "20011120",
+							"url": "/modules/task/dass.form.html"
+						},
+						{
+							"module_id": "BL_KSS",
+							"name": "Karolinska Sleepiness Scale (KSS)",
+							"table_id": "20011120",
+							"url": "/modules/task/kss.html",
+							"counting": "1",
+							"quest": "1",
+							"form_module": "BL_KSS_FORM"
+						},
+						{
+							"module_id": "BL_KSS_FORM",
+							"table_id": "20011120",
+							"url": "/modules/task/kss.form.html"
+						},
+						{
+							"module_id": "BL_WTAR",
+							"name": "Weschler's Test of Adult Reading (WTAR)",
+							"table_id": "20011120",
+							"url": "/modules/task/WTAR.html",
+							"counting": "1"
+						},
+							{
+								"module_id": "BL_Nback",
+								"name": "N-Back",
+								"table_id": "20011120",
+								"url": "/modules/task/Nback.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "BL_NBACK_FORM"
+							},
+							{
+								"module_id": "BL_NBACK_FORM",
+								"table_id": "20011120",
+								"url": "/modules/task/Nback.form.html"
+							},
+							{
+								"module_id": "BL_PVT",
+								"name": "Psychomotor Vigilance Tests (PVT)",
+								"table_id": "20011120",
+								"url": "/modules/task/PVT.html",
+								"counting": "1"
+							},
+							{
+								"module_id": "BL_Stroop_colour",
+								"name": "The Stroop Test (Colour)",
+								"table_id": "20011120",
+								"url": "/modules/task/Stroop_colour.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "BL_STROOPCOLOUR_FORM"
+							},
+							{
+								"module_id": "BL_STROOPCOLOUR_FORM",
+								"table_id": "20011120",
+								"url": "/modules/task/Stroop_colour.form.html"
+							},
+							{
+								"module_id": "BL_Stroop_Text",
+								"name": "The Stroop Test (Text)",
+								"table_id": "20011120",
+								"url": "/modules/task/Stroop_text.html",
+								"counting": "1",
+								"quest": "1",
+								"form_module": "BL_STROOPTEXT_FORM"
+							},
+							{
+								"module_id": "BL_STROOPTEXT_FORM",
+								"table_id": "20011120",
+								"url": "/modules/task/Stroop_text.form.html"
+							},
+							{
+								"module_id": "Evening_Memtest_Set1",
+								"name": "Evening Memory Test Word Pairs Set 1",
+								"table_id": "20011120",
+								"url": "/modules/task/Set1_Evening_Wordpairs.html",
+								"counting": "1"
+							},
+							{
+								"module_id": "Evening_Memtest_Set2",
+								"name": "Evening Memory Test Word Pairs Set 2",
+								"table_id": "20011120",
+								"url": "/modules/task/Set2_evening_wordpairs.html",
+								"counting": "1"
 							}
 						]
 					}
