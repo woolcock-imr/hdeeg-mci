@@ -1,0 +1,223 @@
+<section>
+    VmInclude:__PARTS__/toolbar/back_save.html
+	<form id=F__ID>
+    <table id=table_form__ID style='width:600px;' >
+        <col class=colA style='width:260px' /><col /></colgroup>
+        <tr><td colspan=2 class='header__ID'>HADS</td></tr>
+        <tr><td>1. I feel tense or 'wound up':</td><td>
+            <input type='radio'  id=HADS1 name=HADS1 value=3 >Most of the time<br>
+            <input type='radio'  name=HADS1 value=2>A lot of the time<br>
+            <input type='radio'  name=HADS1 value=1>From time to time, occasionally<br>
+            <input type='radio'  name=HADS1 value=0>Not at all<br>
+        </td></tr>
+        <tr><td>2. I still enjoy the things I used to enjoy:</td><td>
+            <input type='radio'  id=HADS2 name=HADS2 value=0>Definitely as much<br>
+            <input type='radio'  name=HADS2 value=1>Not quite so much<br>
+            <input type='radio'  name=HADS2 value=2>Only a little<br>
+            <input type='radio'  name=HADS2 value=3>Hardly at all<br>
+        </td></tr>
+        <tr><td>3. I get a sort of frightened feeling as if something awful is about to happen:</td><td>
+            <input type='radio'  id=HADS3 name=HADS3 value=3>Very definitely and quite badly<br>
+            <input type='radio'  name=HADS3 value=2>Yes, but not too badly<br>
+            <input type='radio'  name=HADS3 value=1>A little, but it doesn't worry me<br>
+            <input type='radio'  name=HADS3 value=0>Not at all<br>
+        </td></tr>
+        <tr><td>4. I can laugh and see the funny side of things:</td><td>
+            <input type='radio'  id=HADS4 name=HADS4 value=0>As much as I always could<br>
+            <input type='radio'  name=HADS4 value=1>Not quite so much now<br>
+            <input type='radio'  name=HADS4 value=2>Definitely not so much now<br>
+            <input type='radio'  name=HADS4 value=3>Not at all<br>
+        </td></tr>
+        <tr><td>5. Worrying thoughts go through my mind:</td><td>
+            <input type='radio'  id=HADS5 name=HADS5 value=3>A great deal of the time<br>
+            <input type='radio'  name=HADS5 value=2>A lot of the time<br>
+            <input type='radio'  name=HADS5 value=1>From time to time, but not too often<br>
+            <input type='radio'  name=HADS5 value=0>Only occasionally<br>
+        </td></tr>
+
+        <tr><td>6. I feel cheerful:</td><td>
+            <input type='radio'  id=HADS6 name=HADS6 value=3>Not at all<br>
+            <input type='radio'  name=HADS6 value=2>Not often<br>
+            <input type='radio'  name=HADS6 value=1>Sometimes<br>
+            <input type='radio'  name=HADS6 value=0>Most of the time<br>
+        </td></tr>
+        <tr><td>7. I can sit at ease and feel relaxed:</td><td>
+            <input type='radio'  id=HADS7 name=HADS7 value=0>Definitely<br>
+            <input type='radio'  name=HADS7 value=1>Usually<br>
+            <input type='radio'  name=HADS7 value=2>Not Often<br>
+            <input type='radio'  name=HADS7 value=3>Not at all<br>
+        </td></tr>
+        <tr><td>8. I feel as if I am slowed down:</td><td>
+            <input type='radio'  id=HADS8 name=HADS8 value=3>Nearly all the time<br>
+            <input type='radio'  name=HADS8 value=2>Very often<br>
+            <input type='radio'  name=HADS8 value=1>Sometimes<br>
+            <input type='radio'  name=HADS8 value=0>Not at all<br>
+        </td></tr>
+        <tr><td>9. I get a sort of frightened feeling like 'butterflies' in the stomach:</td><td>
+            <input type='radio'  id=HADS9 name=HADS9 value=0>Not at all<br>
+            <input type='radio'  name=HADS9 value=1>Occasionally<br>
+            <input type='radio'  name=HADS9 value=2>Quite Often<br>
+            <input type='radio'  name=HADS9 value=3>Very Often<br>
+        </td></tr>
+        <tr><td>10. I have lost interest in my appearance:</td><td>
+            <input type='radio'  id=HADS10 name=HADS10 value=3>Definitely<br>
+            <input type='radio'  name=HADS10 value=2>I don't take as much care as I should<br>
+            <input type='radio'  name=HADS10 value=1>I may not take quite as much care<br>
+            <input type='radio'  name=HADS10 value=0>I take just as much care as ever<br>
+        </td></tr>
+        <tr><td>11. I feel restless as I have to be on the move:</td><td>
+            <input type='radio'  id=HADS11 name=HADS11 value=3>Very much indeed<br>
+            <input type='radio'  name=HADS11 value=2>Quite a lot<br>
+            <input type='radio'  name=HADS11 value=1>Not very much<br>
+            <input type='radio'  name=HADS11 value=0>Not at all<br>
+        </td></tr>
+        <tr><td>12. I look forward with enjoyment to things:</td><td>
+            <input type='radio'  id=HADS12 name=HADS12 value=0>As much as I ever did<br>
+            <input type='radio'  name=HADS12 value=1>Rather less than I used to<br>
+            <input type='radio'  name=HADS12 value=2>Definitely less than I used to<br>
+            <input type='radio'  name=HADS12 value=3>Hardly at all<br>
+        </td></tr>
+        <tr><td>13. I get sudden feelings of panic:</td><td>
+            <input type='radio'  id=HADS13 name=HADS13 value=3>Very often indeed<br>
+            <input type='radio'  name=HADS13 value=2>Quite often<br>
+            <input type='radio'  name=HADS13 value=1>Not very often<br>
+            <input type='radio'  name=HADS13 value=0>Not at all<br>
+        </td></tr>
+        <tr><td>14. I can enjoy a good book or radio or TV program:</td><td>
+            <input type='radio'  id=HADS14 name=HADS14 value=0>Often<br>
+            <input type='radio'  name=HADS14 value=1>Sometimes<br>
+            <input type='radio'  name=HADS14 value=2>Not often<br>
+            <input type='radio'  name=HADS14 value=3>Very seldom<br>
+        </td></tr>
+        <tr style='display:none'><td>Anxiety</td><td>
+            <input name=HADSA id=HADSA type=text />
+        </td></tr>
+        <tr style='display:none'><td>Depression</td><td>
+            <input name=HADSD id=HADSD type=text />
+        </td></tr>
+    </table>
+</form>
+/*<!--!-20003547-form_buttons-!-->*/
+</section>
+<script>
+    function F__ID(){
+        //----------------------------------
+        VmInclude:__PARTS__/grid/form.js
+        VmInclude:__PARTS__/style/ease-in-out.2.js
+    		VmInclude:__CURRENT_PATH__/task.form.js
+        //----------------------------------
+        $('#D__ID').on('load',function(){
+            _init();
+            _field_process();
+            _task_fields=$vm.vm['__ID'].op.grid_to_form_parameters.task_fields;
+            _set_participant_field();
+            custom_field_process();
+        })
+        //----------------------------------
+        var custom_field_process=function(){
+            $('#tb__ID td[data-custom=1]').each(function(){
+                var field=$(this).attr('data-id');
+                switch(field){
+                    case "Participant":
+                        $(this).find("input[name='"+field+"']").val(_records[I].Participant);
+                        $(this).find("input[name='"+field+"_uid']").val(_records[I].Participant_uid);
+                    break;
+                    case "ISI_1a":
+                    case "ISI_1b":
+                    case "ISI_1c":
+                    case "ISI_2":
+                    case "ISI_3":
+                    case "ISI_4":
+                    case "ISI_5":
+                        $('#tb__ID').find("input[name='"+field+"'][value='"+_records[I][field]+"']").prop('checked', true);
+                        $('#tb__ID').find("input[name='"+field+"']").on('click',function(){
+                            _set_value(this.value,_records,I,field);
+                        })
+                    break;
+                }
+            })
+        }
+        //----------------------------------
+        _before_submit=function(record,dbv){
+            return _set_status_and_participant(record,dbv);
+        }
+        //-------------------------------------
+        _before_submit_form=function(){
+            if( $('#tb__ID').find('input[name=ISI_1a]:checked').val()===undefined){ alert("Please answer question 1a"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_1b]:checked').val()===undefined){ alert("Please answer question 1b"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_1c]:checked').val()===undefined){ alert("Please answer question 1c"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_2]:checked').val()===undefined){ alert("Please answer question 2"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_3]:checked').val()===undefined){ alert("Please answer question 3"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_4]:checked').val()===undefined){ alert("Please answer question 4"); return false; }
+            if( $('#tb__ID').find('input[name=ISI_5]:checked').val()===undefined){ alert("Please answer question 5"); return false; }
+        	var v2=parseInt($('#tb__ID').find('input[name=ISI_1a]:checked').val());
+        	var v3=parseInt($('#tb__ID').find('input[name=ISI_1b]:checked').val());
+        	var v4=parseInt($('#tb__ID').find('input[name=ISI_1c]:checked').val());
+        	var v5=parseInt($('#tb__ID').find('input[name=ISI_2]:checked').val());
+        	var v6=parseInt($('#tb__ID').find('input[name=ISI_3]:checked').val());
+        	var v7=parseInt($('#tb__ID').find('input[name=ISI_4]:checked').val());
+        	var v8=parseInt($('#tb__ID').find('input[name=ISI_5]:checked').val());
+        	var v9=v2+v3+v4+v5+v6+v7+v8;
+            var v10=v2+v3+v4;
+            _records[I].ISI=v9;
+            _records[I].ISI_1=v10;
+            return true;
+        }
+    }
+</script>
+<style>
+    VmInclude:__PARTS__/toolbar/toolbar.css
+    VmInclude:__PARTS__/grid/form.css
+    #tb__ID tr td:nth-child(2),
+    #tb__ID tr td:nth-child(3),
+    #tb__ID tr td:nth-child(4),
+    #tb__ID tr td:nth-child(5),
+    #tb__ID tr td:nth-child(6)
+    {
+        text-align: center;
+        padding: 5px;
+    }
+    .modified_radio__ID {
+    	-webkit-appearance: none;
+    	-moz-appearance: button;
+    /*	background-color: #fafafa;*/
+    	border: 1px solid #000;
+    	width:22px;
+    	height:26px;
+    /*	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);*/
+    	padding: 0px;
+    	border-radius: 3px;
+    	display: inline-block;
+    	position: relative;
+    	opacity:0.15;
+        vertical-align: middle;
+    }
+    .modified_radio__ID:active, .modified_radio__ID:checked:active {
+    	/*box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);*/
+    }
+
+    .modified_radio__ID:checked {
+        -moz-appearance: button;
+    	background-color: #554055;
+    	border: 1px solid #adb8c0;
+    /*	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);*/
+    	color: #99a1a7;
+    	opacity:0.9;
+    }
+    .modified_radio__ID:checked:after {
+    	/*content: '\2714';*/
+    	font-size: 14px;
+    	position: absolute;
+    	top: 0px;
+    	left: 3px;
+    	color: #99a1a7;
+    }
+    .modified_radio__ID:active, .modified_radio__ID:checked:active {
+    	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+    }
+    .modified_number__ID{
+        margin-left:-18px;
+        font-size:14pt;
+        vertical-align:middle;
+    }
+</style>
