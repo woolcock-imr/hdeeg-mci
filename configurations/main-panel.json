@@ -362,7 +362,7 @@
                   "name" : "Memory Tests Set 1",
                   "modules" : [
                      {
-                        "module_id" : "Set1_Memtest_practice",
+                        "module_id" : "BL_Set1_Memtest_practice",
                         "name" : "Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011263",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
@@ -397,7 +397,7 @@
                   "name" : "Memory Tests Set 2",
                   "modules" : [
                      {
-                        "module_id" : "Set2_Memtest_practice",
+                        "module_id" : "BL_Set2_Memtest_practice",
                         "name" : "Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011120",
                         "url" : "/modules/task/Set2_Evening_Wordpairs_Practice.html"
@@ -639,7 +639,7 @@
                   "name" : "Memory Tests Set 1",
                   "modules" : [
                      {
-                        "module_id" : "Set1_Memtest_practice",
+                        "module_id" : "FUP_Set1_Memtest_practice",
                         "name" : "Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011120",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
@@ -647,19 +647,19 @@
                      {
                         "module_id" : "Evening_Memtest_Set1",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 1",
-                        "table_id" : "20011263",
+                        "table_id" : "20011250",
                         "url" : "/modules/task/Set1_Evening_Wordpairs.html"
                      },
                      {
                         "module_id" : "Evening_Memtest_Set1",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 2",
-                        "table_id" : "20011252",
+                        "table_id" : "20011251",
                         "url" : "/modules/task/Set1_Evening_Wordpairs.html"
                      },
                      {
                         "module_id" : "Evening_Memtest_Set1",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 3",
-                        "table_id" : "20011120",
+                        "table_id" : "20011152",
                         "url" : "/modules/task/Set1_Evening_Wordpairs.html"
                      },
                      {
@@ -674,7 +674,7 @@
                   "name" : "Memory Tests Set 2",
                   "modules" : [
                      {
-                        "module_id" : "Set2_Memtest_practice",
+                        "module_id" : "FUP_Set2_Memtest_practice",
                         "name" : "Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011264",
                         "url" : "/modules/task/Set2_Evening_Wordpairs_Practice.html"
