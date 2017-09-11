@@ -399,7 +399,7 @@
                      {
                         "module_id" : "BL_Set2_Memtest_practice",
                         "name" : "Memory Word Pairs Set 2 Practice",
-                        "table_id" : "20011120",
+                        "table_id" : "20011130",
                         "url" : "/modules/task/Set2_Evening_Wordpairs_Practice.html"
                      },
                      {
@@ -641,7 +641,7 @@
                      {
                         "module_id" : "FUP_Set1_Memtest_practice",
                         "name" : "Memory Word Pairs Set 1 Practice",
-                        "table_id" : "20011120",
+                        "table_id" : "20011130",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
                      {
