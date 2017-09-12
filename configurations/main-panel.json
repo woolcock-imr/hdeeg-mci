@@ -147,7 +147,7 @@
                         "url" : "/modules/task/under_construction.html",
                         "counting" : "1",
                         "quest" : "1",
-                        "form_module" : "antrho_form"
+                        "form_module" : "anthro_form"
                      },
                      {
                         "module_id" : "anthro_form",
