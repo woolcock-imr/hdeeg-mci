@@ -126,7 +126,7 @@
                      {
                         "module_id" : "Concom_form",
                         "table_id" : "20011207",
-                        "url" : "/modules/task/Concom_Medication.form.html"
+                        "url" : "/modules/task/concom_medication.form.html"
                      }
                   ]
                },
@@ -144,15 +144,9 @@
                         "module_id" : "Anthropometry",
                         "name" : "Anthropometry",
                         "table_id" : "20011209",
-                        "url" : "/modules/task/under_construction.html",
+                        "url" : "/modules/task/Anthro.html",
                         "counting" : "1",
                         "quest" : "1",
-                        "form_module" : "anthro_form"
-                     },
-                     {
-                        "module_id" : "anthro_form",
-                        "table_id" : "20011209",
-                        "url" : "/modules/task/anthro.form.html"
                      },
                      {
                         "module_id" : "ESS",
@@ -180,7 +174,7 @@
                      {
                         "module_id" : "SC_Concom_form",
                         "table_id" : "20011211",
-                        "url" : "/modules/task/Concom_Medication.form.html"
+                        "url" : "/modules/task/concom_medication.form.html"
                      },
                      {
                         "module_id" : "Sleep_diary",
