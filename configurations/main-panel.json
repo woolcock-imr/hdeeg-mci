@@ -230,7 +230,7 @@
                   ]
                },
                {
-                  "name" : "Evening",
+                  "name" : "Baseline Evening",
                   "modules" : [
                      {
                         "module_id" : "BL_Anthro",
@@ -423,7 +423,7 @@
                   ]
                },
                {
-                  "name" : "Finger Tapping Task",
+                  "name" : "Baseline Evening Finger Tapping Task",
                   "modules" : [
                      {
                         "module_id" : "BL_Fingertapping_evening",
@@ -442,7 +442,7 @@
                   ]
                },
                {
-                  "name" : "Morning",
+                  "name" : "Baseline Morning",
                   "modules" : [
                      {
                         "module_id" : "BL_MORNING_KSS",
@@ -507,7 +507,7 @@
                   ]
                },
                {
-                  "name" : "Evening",
+                  "name" : "Follow up Evening",
                   "modules" : [
                      {
                         "module_id" : "FUP_Anthro",
@@ -700,7 +700,7 @@
                   ]
                },
                {
-                  "name" : "Finger Tapping task",
+                  "name" : "Follow up Finger Tapping task",
                   "modules" : [
                      {
                         "module_id" : "FU_Fingertapping_evening",
