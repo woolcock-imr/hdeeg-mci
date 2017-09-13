@@ -356,7 +356,7 @@
                   "name" : "Memory Tests Set 1",
                   "modules" : [
                      {
-                        "module_id" : "BL_Set1_Memtest_practice",
+                        "module_id" : "Set1_Memtest_practice",
                         "name" : "Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011263",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
@@ -391,7 +391,7 @@
                   "name" : "Memory Tests Set 2",
                   "modules" : [
                      {
-                        "module_id" : "BL_Set2_Memtest_practice",
+                        "module_id" : "Set2_Memtest_practice",
                         "name" : "Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011130",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
@@ -633,7 +633,7 @@
                   "name" : "Memory Tests Set 1",
                   "modules" : [
                      {
-                        "module_id" : "FUP_Set1_Memtest_practice",
+                        "module_id" : "Set1_Memtest_practice",
                         "name" : "Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011130",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
@@ -668,7 +668,7 @@
                   "name" : "Memory Tests Set 2",
                   "modules" : [
                      {
-                        "module_id" : "FUP_Set2_Memtest_practice",
+                        "module_id" : "Set2_Memtest_practice",
                         "name" : "Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011264",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
