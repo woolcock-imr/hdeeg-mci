@@ -97,7 +97,7 @@
             return array;
         }
         //----------------------------------
-        var group1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32];
+    /*    var group1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32];
         var group1_random=random_array(group1);
         var group2=[34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65];
         var group2_random=random_array(group2);
@@ -109,7 +109,23 @@
         for(var i=0;i<32;i++){
             group4_random.push(98+2*group4_random_0[i])
             group4_random.push(98+2*group4_random_0[i]+1)
-        }
+        }*/
+        var group1=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31];
+        var group1_random=random_array(group1);
+        var group2=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31];
+        var group2_random=random_array(group2);
+        
+        //----------------------------------
+		var all=[];
+		for(i=0;i<32;i++){
+			all.push(0+group1[i])
+		}
+		all.push(32)
+		for(i=0;i<32;i++){
+			all.push(33+group2[i])
+		}
+		//all.push(65)
+		console.dir(all)
         //----------------------------------
         var I=-1;
         var N=img_array.length;
@@ -140,25 +156,20 @@
             I=-1;
         })
         var set_img=function(){
-            if(I>=0 && I<=162){ //total 163 images
+            if(I>=0 && I<=64){
                 if(pause==false){
-                    var new_I=I+1;
-                    if(new_I>=1 && new_I<=32) new_I=group1_random[new_I-1];             // 1-32
-                    else if(new_I>=34 && new_I<=65) new_I=group2_random[new_I-34];
-                    else if(new_I>=67 && new_I<=98) new_I=group3_random[new_I-67];
-                    else if(new_I>=100 && new_I<=163) new_I=group4_random[new_I-100];
-    console.log(new_I)
-                    $("#img__ID").attr("src",img_array[new_I-1].src);
-                    setTimeout(set_img, img_array[new_I-1].time);
-                    I++;
-                }
-                else{
-                    $("#img__ID").attr("src",pause_array[0].src);
-                    setTimeout(set_img, pause_array[0].time);
-                }
+					var r_I=all[I];
+					console.log(I+'---'+r_I);
+	                $("#img__ID").attr("src",img_array[r_I].src);
+					setTimeout(set_img, img_array[r_I].time);
+	                I++;
+            	}
             }
+			else{
+				$("#img__ID").attr("src",pause_array[0].src);
+			}
         }
-    }
+	}
 </script>
 <style>
     VmInclude:__PARTS__/style/default.css
