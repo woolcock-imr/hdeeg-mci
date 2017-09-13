@@ -6,14 +6,13 @@
 
 
           <tr><td colspan=2 class='header__ID'>Hospital Anxiety and Depression Scale (HADS)</td></tr>
-          <tr><td colspan=2 class='subheader__ID '>Read each item and underline the reply which comes to closest how you have been feeling <b><u><i>in the past week</b></u></i>.  Don’t take too long over your replies; your immediate reaction to each item will probably be more accurate than a long thought out response.</td></tr>
-
-
           <tr id=tr_participant__ID style='display:none'><td colspan=2 data-id=Participant data-custom=1>
               <input name=Participant  id=Participant__ID  type=text class=sel__ID placeholder='select a partcipant...'/>
               <input name=Participant_uid id=Participant_uid__ID type=text readonly style="width:50px;color:#ccc;" />
               <u style='cursor:pointer;float:right;' id=Participant_r__ID>Remove</u>
           </td></tr>
+
+          <tr><td colspan=2 class='subheader__ID'>Read each item and underline the reply which comes to closest how you have been feeling <b><u><i>in the past week</b></u></i>.  Don’t take too long over your replies; your immediate reaction to each item will probably be more accurate than a long thought out response.</td></tr>
 
 	        <tr><td>1. I feel tense or 'wound up':</td><td data-id=HADS1 data-custom=1>
 	            <input type='radio'  name=HADS1 value=3 >Most of the time<br>
@@ -221,14 +220,20 @@
       border: 1px solid #000;
 
     }
+
+    #subheader__ID{
+    background-color: #fff;
+    }
+
+
     .modified_radio__ID {
     	-webkit-appearance: none;
     	-moz-appearance: button;
-    /*	background-color: #fafafa;*/
+
     	border: 1px solid #000;
     	width:22px;
     	height:26px;
-    /*	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);*/
+
     	padding: 0px;
     	border-radius: 3px;
     	display: inline-block;
@@ -237,19 +242,17 @@
         vertical-align: middle;
     }
     .modified_radio__ID:active, .modified_radio__ID:checked:active {
-    	/*box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);*/
     }
 
     .modified_radio__ID:checked {
         -moz-appearance: button;
     	background-color: #554055;
     	border: 1px solid #adb8c0;
-    /*	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);*/
+
     	color: #99a1a7;
     	opacity:0.9;
     }
     .modified_radio__ID:checked:after {
-    	/*content: '\2714';*/
     	font-size: 14px;
     	position: absolute;
     	top: 0px;

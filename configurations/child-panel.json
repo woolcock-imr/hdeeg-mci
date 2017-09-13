@@ -129,7 +129,7 @@
                         {
                            "module_id" : "Concom_form",
                            "table_id" : "20011207",
-                           "url" : "/modules/task/Concom_Medication.form.html"
+                           "url" : "/modules/task/concom_medication.form.html"
                         }
                      ]
                   },
@@ -147,17 +147,11 @@
                            "module_id" : "Anthropometry",
                            "name" : "Anthropometry",
                            "table_id" : "20011209",
-                           "url" : "/modules/task/under_construction.html",
-						   "child":"1",
-						   "single_record":"1",
+                           "url" : "/modules/task/Anthro.html",
+												   "child":"1",
+												   "single_record":"1",
                            "counting" : "1",
-                           "quest" : "1",
-                           "form_module" : "antrho_form"
-                        },
-                        {
-                           "module_id" : "anthro_form",
-                           "table_id" : "20011209",
-                           "url" : "/modules/task/anthro.form.html"
+                           "quest" : "1"
                         },
                         {
                            "module_id" : "ESS",
@@ -189,7 +183,7 @@
                         {
                            "module_id" : "SC_Concom_form",
                            "table_id" : "20011211",
-                           "url" : "/modules/task/Concom_Medication.form.html"
+                           "url" : "/modules/task/concom_medication.form.html"
                         },
                         {
                            "module_id" : "Sleep_diary",
@@ -251,7 +245,7 @@
                      ]
                   },
                   {
-                     "name" : "Evening",
+                     "name" : "Baseline Evening",
                      "modules" : [
                         {
                            "module_id" : "BL_Anthro",
@@ -462,7 +456,7 @@
                      ]
                   },
                   {
-                     "name" : "Finger Tapping Task",
+                     "name" : "Baseline Finger Tapping Task",
                      "modules" : [
                         {
                            "module_id" : "BL_Fingertapping_evening",
@@ -483,7 +477,7 @@
                      ]
                   },
                   {
-                     "name" : "Morning",
+                     "name" : "Baseline Morning",
                      "modules" : [
                         {
                            "module_id" : "BL_MORNING_KSS",
@@ -555,7 +549,7 @@
                      ]
                   },
                   {
-                     "name" : "Evening",
+                     "name" : "Follow up Evening",
                      "modules" : [
                         {
                            "module_id" : "FUP_Anthro",
@@ -766,7 +760,7 @@
                      ]
                   },
                   {
-                     "name" : "Finger Tapping task",
+                     "name" : "Follow up Evening Finger Tapping task",
                      "modules" : [
                         {
                            "module_id" : "FU_Fingertapping_evening",
