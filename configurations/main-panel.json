@@ -362,25 +362,25 @@
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
                      {
-                        "module_id" : "Evening_Memtest_Set1",
+                        "module_id" : "Evening_Memtest_Set1_Trial1",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 1",
                         "table_id" : "20011226",
                         "url" : "/modules/task/Set1Trial1_Evening_Wordpairs.html"
                      },
                      {
-                        "module_id" : "Evening_Memtest_Set1",
+                        "module_id" : "Evening_Memtest_Set1_Trial2",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 2",
                         "table_id" : "20011227",
                         "url" : "/modules/task/Set1Trial2_Evening_Wordpairs.html"
                      },
                      {
-                        "module_id" : "Evening_Memtest_Set1",
+                        "module_id" : "Evening_Memtest_Set1_Trial3",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 3",
                         "table_id" : "20011228",
                         "url" : "/modules/task/Set1Trial3_Evening_Wordpairs.html"
                      },
                      {
-                        "module_id" : "Evening_Memtest_Set1",
+                        "module_id" : "Evening_Memtest_Set1_Trial4",
                         "name" : "Evening Memory Test Word Pairs Set 1 Trial 4",
                         "table_id" : "20011229",
                         "url" : "/modules/task/Set1Trial4_Evening_Wordpairs.html"
