@@ -349,7 +349,7 @@
                      },
                      {
                         "module_id" : "BL_EVENING_PVT",
-                        "name" : "Baseline Eveing Psychomotor Vigilance Tests (PVT)",
+                        "name" : "Evening Psychomotor Vigilance Tests (PVT)",
                         "table_id" : "20011224",
                         "url" : "/modules/task/PVT.html",
                         "counting" : "1"
@@ -380,7 +380,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set1_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 1 Practice",
+                        "name" : "Evening Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011263",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
@@ -415,7 +415,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set2_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 2 Practice",
+                        "name" : "Evening Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011130",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
                      },
@@ -450,7 +450,7 @@
                   "modules" : [
                      {
                         "module_id" : "BL_Fingertapping_evening",
-                        "name" : "Baseline Evening Finger Tapping Task (12 minutes)",
+                        "name" : "Evening Finger Tapping Task (12 minutes)",
                         "table_id" : "20011234",
                         "url" : "/modules/task/finger_tapping_12.html",
                         "counting" : "1",
@@ -488,7 +488,7 @@
                      },
                      {
                         "module_id" : "BL_Fingertapping_Morning",
-                        "name" : "Morning Tapping Task (6 minutes)",
+                        "name" : "Morning Finger Tapping Task (6 minutes)",
                         "table_id" : "20011236",
                         "url" : "/modules/task/finger_tapping_6.html",
                         "counting" : "1",
@@ -502,7 +502,7 @@
                      },
                      {
                         "module_id" : "BL_MORNING_PVT",
-                        "name" : "Baseline Morning Psychomotor Vigilance Tests (PVT)",
+                        "name" : "Morning Psychomotor Vigilance Tests (PVT)",
                         "table_id" : "",
                         "url" : "/modules/task/PVT.html",
                         "counting" : "1"
@@ -626,7 +626,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set1_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 1 Practice",
+                        "name" : "Evening Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011130",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
@@ -661,7 +661,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set2_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 2 Practice",
+                        "name" : "Evening Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011264",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
                      },
@@ -696,7 +696,7 @@
                   "modules" : [
                      {
                         "module_id" : "FU_Fingertapping_evening",
-                        "name" : "Follow Up Morning Finger Tapping Task (12 minutes)",
+                        "name" : "Evening Finger Tapping Task (12 minutes)",
                         "table_id" : "20011258",
                         "url" : "/modules/task/finger_tapping_12.html",
                         "counting" : "1",
@@ -743,7 +743,7 @@
                      },
                      {
                         "module_id" : "FUP_MORNING_PVT",
-                        "name" : "Follow Up Morning Psychomotor Vigilance Tests (PVT)",
+                        "name" : "Morning Psychomotor Vigilance Tests (PVT)",
                         "table_id" : "",
                         "url" : "/modules/task/PVT.html",
                         "counting" : "1"
