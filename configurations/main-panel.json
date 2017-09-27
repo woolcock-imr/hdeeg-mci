@@ -212,6 +212,51 @@
                         "url" : "/modules/task/IncluExclu.form.html"
                      }
                   ]
+               },
+               {
+                  "name" : "Neuropsychological and Mood Assessment",
+                  "modules" : [
+                     {
+                        "module_id" : "Screening_PSQI",
+                        "name" : "Pittsburgh Sleep Quality Index (PSQI) ",
+                        "table_id" : "",
+                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
+                        "counting" : "",
+                        "quest" : "",
+                        "form_module" : "SC_PSQI_Form"
+                     },
+                     {
+                        "module_id" : "SC_PSQI_form",
+                        "table_id" : "",
+                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
+                     },
+                     {
+                        "module_id" : "Screening_DASS",
+                        "name" : "Depression Anxiety Stress Scale (DASS-21)",
+                        "table_id" : "",
+                        "url" : "/modules/task/dass.html",
+                        "counting" : "",
+                        "quest" : "",
+                        "form_module" : "SC_DASS_Form"
+                     },
+                     {
+                        "module_id" : "SC_DASS_form",
+                        "table_id" : "",
+                        "url" : "/modules/task/dass.form.html"
+                     },
+                     {
+                        "module_id" : "SC_MMSE",
+                        "name" : "Mini-Mental State Examination (MMSE)",
+                        "table_id" : "",
+                        "url" : "/modules/task/MMSE.html"
+                     },
+                     {
+                        "module_id" : "SC_WTAR",
+                        "name" : "Wechsler Test of Adult Reading (WTAR)",
+                        "table_id" : "",
+                        "url" : "/modules/task/WTAR.html"
+                     }
+                  ]
                }
             ]
          },
