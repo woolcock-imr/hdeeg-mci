@@ -482,6 +482,11 @@
                         "url" : "/modules/task/kss.form.html"
                      },
                      {
+                        "module_id" : "BL_KDT_MORNING",
+                        "table_id" : "",
+                        "url" : "/modules/task/kdt.html"
+                     },
+                     {
                         "module_id" : "BL_Fingertapping_Morning",
                         "name" : "Morning Tapping Task (6 minutes)",
                         "table_id" : "20011236",
@@ -509,13 +514,13 @@
                   "modules" : [
                      {
                         "module_id" : "Morning_Memory_Set1",
-                        "name" : "Morning Memory Test Set 1",
+                        "name" : "Morning Memory Test Word Pairs Set 1",
                         "table_id" : "20011237",
                         "url" : "/modules/task/Set1_Morning_Wordpairs.html"
                      },
                      {
                         "module_id" : "Morning_Memory_Set2",
-                        "name" : "Morning Memory Test Set 2",
+                        "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011238",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
                      }
@@ -750,13 +755,13 @@
                   "modules" : [
                      {
                         "module_id" : "Morning_Memory_Set1",
-                        "name" : "Morning Memory Test Set 1",
+                        "name" : "Morning Memory Test Word Pairs Set 1",
                         "table_id" : "20011261",
                         "url" : "/modules/task/Set1_Morning_Wordpairs.html"
                      },
                      {
                         "module_id" : "Morning_Memory_Set2",
-                        "name" : "Morning Memory Test Set 2",
+                        "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011262",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
                      }
