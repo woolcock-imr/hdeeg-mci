@@ -219,7 +219,7 @@
                      {
                         "module_id" : "SC_Visit_date",
                         "name" : "Visit Date",
-                        "table_id" : "20011216",
+                        "table_id" : "",
                         "url" : "/modules/task/Visit_date.html",
                         "counting" : "1"
                      },
@@ -315,6 +315,11 @@
                         "form_module" : "BL_ESS_form"
                      },
                      {
+                        "module_id" : "BL_ESS_form",
+                        "table_id" : "20011217",
+                        "url" : "/modules/task/Epworth_Sleepiness_Scale.form.html"
+                     },
+                     {
                         "module_id" : "BL_DASS",
                         "name" : "Depression Anxiety Stress Scale (DASS-21)",
                         "table_id" : "",
@@ -327,11 +332,6 @@
                         "module_id" : "BL_DASS_form",
                         "table_id" : "",
                         "url" : "/modules/task/dass.form.html"
-                     },
-                     {
-                        "module_id" : "BL_ESS_form",
-                        "table_id" : "20011217",
-                        "url" : "/modules/task/Epworth_Sleepiness_Scale.form.html"
                      },
                      {
                         "module_id" : "BL_ISI",
