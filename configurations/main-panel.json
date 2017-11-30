@@ -127,6 +127,11 @@
                         "module_id" : "Concom_form",
                         "table_id" : "20011207",
                         "url" : "/modules/task/concom_medication.form.html"
+                     },
+                     {
+                        "module_id" : "Concom_upload",
+                        "table_id" : "",
+                        "url" : "/modules/task/file_upload"
                      }
                   ]
                },
@@ -238,18 +243,10 @@
                         "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
                      },
                      {
-                        "module_id" : "Screening_DASS",
-                        "name" : "Depression Anxiety Stress Scale (DASS-21)",
+                        "module_id" : "Screening_GDS",
+                        "name" : "Geriatric Depression Scale (GDS)",
                         "table_id" : "",
-                        "url" : "/modules/task/dass.html",
-                        "counting" : "",
-                        "quest" : "",
-                        "form_module" : "SC_DASS_Form"
-                     },
-                     {
-                        "module_id" : "SC_DASS_form",
-                        "table_id" : "",
-                        "url" : "/modules/task/dass.form.html"
+                        "url" : "/modules/task/file_upload.html"
                      },
                      {
                         "module_id" : "SC_MMSE",
@@ -370,7 +367,7 @@
                      },
                      {
                         "module_id" : "BL_Evening_KSS",
-                        "name" : "Karolinska Sleepiness Scale (KSS)",
+                        "name" : "Evening Sleepiness Scale (KSS)",
                         "table_id" : "20011225",
                         "url" : "/modules/task/kss.html",
                         "counting" : "1",
@@ -384,6 +381,7 @@
                      },
                      {
                         "module_id" : "BL_KDT_EVENING",
+                        "name" : "Evening Karolinska Drowsiness Test (KDT)",
                         "table_id" : "",
                         "url" : "/modules/task/kdt.html"
                      }
@@ -482,8 +480,14 @@
                   "name" : "Baseline Morning",
                   "modules" : [
                      {
+                        "module_id" : "BL_PSG",
+                        "name" : "Baseline HdEEG EDF ",
+                        "table_id" : "",
+                        "url" : "/modules/task/hdeeg_edf.html"
+                     },
+                     {
                         "module_id" : "BL_MORNING_KSS",
-                        "name" : "Karolinska Sleepiness Scale (KSS)",
+                        "name" : "Morning Karolinska Sleepiness Scale (KSS)",
                         "table_id" : "20011235",
                         "url" : "/modules/task/kss.html",
                         "counting" : "1",
@@ -494,6 +498,12 @@
                         "module_id" : "BL_MORNING_KSS_FORM",
                         "table_id" : "20011235",
                         "url" : "/modules/task/kss.form.html"
+                     },
+                     {
+                        "module_id" : "BL_MORNING_KDT",
+                        "name" : "Morning Karolinska Drowsiness Test (KDT)",
+                        "table_id" : "",
+                        "url" : "/modules/task/kdt.html"
                      },
                      {
                         "module_id" : "BL_KDT_MORNING",
