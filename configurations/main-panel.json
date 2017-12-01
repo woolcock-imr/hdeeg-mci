@@ -483,7 +483,7 @@
                      {
                         "module_id" : "BL_PSG",
                         "name" : "Baseline HdEEG EDF ",
-                        "table_id" : "",
+                        "table_id" : "20011264", 
                         "url" : "/modules/task/File_upload.html"
                      },
                      {
