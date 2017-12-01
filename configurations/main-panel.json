@@ -130,6 +130,7 @@
                      },
                      {
                         "module_id" : "Concom_upload",
+                        "name" : "Concomitant Medications File Upload",
                         "table_id" : "",
                         "url" : "/modules/task/file_upload"
                      }
