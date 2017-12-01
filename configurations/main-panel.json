@@ -132,7 +132,7 @@
                         "module_id" : "Concom_upload",
                         "name" : "Concomitant Medications File Upload",
                         "table_id" : "",
-                        "url" : "/modules/task/file_upload"
+                        "url" : "/modules/task/File_upload.html"
                      }
                   ]
                },
@@ -384,7 +384,7 @@
                         "module_id" : "BL_KDT_EVENING",
                         "name" : "Evening Karolinska Drowsiness Test (KDT)",
                         "table_id" : "",
-                        "url" : "/modules/task/kdt.html"
+                        "url" : "/modules/task/File_upload.html"
                      }
                   ]
                },
@@ -484,7 +484,7 @@
                         "module_id" : "BL_PSG",
                         "name" : "Baseline HdEEG EDF ",
                         "table_id" : "",
-                        "url" : "/modules/task/hdeeg_edf.html"
+                        "url" : "/modules/task/File_upload.html"
                      },
                      {
                         "module_id" : "BL_MORNING_KSS",
