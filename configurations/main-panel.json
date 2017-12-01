@@ -483,7 +483,7 @@
                      {
                         "module_id" : "BL_PSG",
                         "name" : "Baseline HdEEG EDF ",
-                        "table_id" : "20011264", 
+                        "table_id" : "",
                         "url" : "/modules/task/File_upload.html"
                      },
                      {
@@ -509,7 +509,7 @@
                      {
                         "module_id" : "BL_KDT_MORNING",
                         "table_id" : "",
-                        "url" : "/modules/task/kdt.html"
+                        "url" : "/modules/task/File_upload.html"
                      },
                      {
                         "module_id" : "BL_Fingertapping_Morning",
