@@ -320,15 +320,15 @@
                      {
                         "module_id" : "BL_DASS",
                         "name" : "Depression Anxiety Stress Scale (DASS-21)",
-                        "table_id" : "",
+                        "table_id" : "20011220",
                         "url" : "/modules/task/dass.html",
-                        "counting" : "",
-                        "quest" : "",
+                        "counting" : "1",
+                        "quest" : "1",
                         "form_module" : "BL_DASS_Form"
                      },
                      {
                         "module_id" : "BL_DASS_form",
-                        "table_id" : "",
+                        "table_id" : "20011220",
                         "url" : "/modules/task/dass.form.html"
                      },
                      {
@@ -505,11 +505,6 @@
                         "name" : "Morning Karolinska Drowsiness Test (KDT)",
                         "table_id" : "",
                         "url" : "/modules/task/kdt.html"
-                     },
-                     {
-                        "module_id" : "BL_KDT_MORNING",
-                        "table_id" : "",
-                        "url" : "/modules/task/File_upload.html"
                      },
                      {
                         "module_id" : "BL_Fingertapping_Morning",
