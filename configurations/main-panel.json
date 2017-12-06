@@ -127,6 +127,12 @@
                         "module_id" : "Concom_form",
                         "table_id" : "20011207",
                         "url" : "/modules/task/concom_medication.form.html"
+                     },
+                     {
+                        "module_id" : "Concom_upload",
+                        "name" : "Concomitant Medications File Upload",
+                        "table_id" : "",
+                        "url" : "/modules/task/File_upload.html"
                      }
                   ]
                },
@@ -212,6 +218,64 @@
                         "url" : "/modules/task/IncluExclu.form.html"
                      }
                   ]
+               },
+               {
+                  "name" : "Neuropsychological and Mood Assessment",
+                  "modules" : [
+                     {
+                        "module_id" : "SC_Visit_date",
+                        "name" : "Visit Date",
+                        "table_id" : "",
+                        "url" : "/modules/task/Visit_date.html",
+                        "counting" : "1"
+                     },
+                     {
+                        "module_id" : "Screening_PSQI",
+                        "name" : "Pittsburgh Sleep Quality Index (PSQI) ",
+                        "table_id" : "",
+                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
+                        "counting" : "",
+                        "quest" : "",
+                        "form_module" : "SC_PSQI_Form"
+                     },
+                     {
+                        "module_id" : "SC_PSQI_form",
+                        "table_id" : "",
+                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
+                     },
+                     {
+                        "module_id" : "Screening_GDS",
+                        "name" : "Geriatric Depression Scale (GDS)",
+                        "table_id" : "",
+                        "url" : "/modules/task/file_upload.html"
+                     },
+                     {
+                        "module_id" : "SC_MMSE",
+                        "name" : "Mini-Mental State Examination (MMSE)",
+                        "table_id" : "",
+                        "url" : "/modules/task/MMSE.html"
+                     },
+                     {
+                        "module_id" : "SC_WTAR",
+                        "name" : "Wechsler Test of Adult Reading (WTAR)",
+                        "table_id" : "",
+                        "url" : "/modules/task/WTAR.html"
+                     },
+                     {
+                        "module_id" : "SC_HADS",
+                        "name" : "Hospital Anxiety Depression Scale (HADS) ",
+                        "table_id" : "",
+                        "url" : "/modules/task/hads.html",
+                        "counting" : "1",
+                        "quest" : "1",
+                        "form_module" : "SC_HADS_Form"
+                     },
+                     {
+                        "module_id" : "SC_HADS_Form",
+                        "table_id" : "",
+                        "url" : "/modules/task/hads.form.html"
+                     }
+                  ]
                }
             ]
          },
@@ -254,6 +318,20 @@
                         "url" : "/modules/task/Epworth_Sleepiness_Scale.form.html"
                      },
                      {
+                        "module_id" : "BL_DASS",
+                        "name" : "Depression Anxiety Stress Scale (DASS-21)",
+                        "table_id" : "20011220",
+                        "url" : "/modules/task/dass.html",
+                        "counting" : "1",
+                        "quest" : "1",
+                        "form_module" : "BL_DASS_Form"
+                     },
+                     {
+                        "module_id" : "BL_DASS_form",
+                        "table_id" : "20011220",
+                        "url" : "/modules/task/dass.form.html"
+                     },
+                     {
                         "module_id" : "BL_ISI",
                         "name" : "Insomnia Severity Index (ISI)",
                         "table_id" : "20011218",
@@ -266,48 +344,6 @@
                         "module_id" : "BL_ISI_form",
                         "table_id" : "20011218",
                         "url" : "/modules/task/Insomnia_Severity_Index.form.html"
-                     },
-                     {
-                        "module_id" : "BL_PSQI",
-                        "name" : "Pittsburgh Sleep Quality Index (PSQI)",
-                        "table_id" : "20011219",
-                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "BL_PSQI_form"
-                     },
-                     {
-                        "module_id" : "BL_PSQI_form",
-                        "table_id" : "20011219",
-                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
-                     },
-                     {
-                        "module_id" : "BL_DASS",
-                        "name" : "Depression Anxiety Stress Scale (DASS-21)",
-                        "table_id" : "20011220",
-                        "url" : "/modules/task/dass.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "BL_DASS_FORM"
-                     },
-                     {
-                        "module_id" : "BL_DASS_FORM",
-                        "table_id" : "20011220",
-                        "url" : "/modules/task/dass.form.html"
-                     },
-                     {
-                        "module_id" : "BL_HADS",
-                        "name" : "Hospital Anxiety Depression Scale (HADS) ",
-                        "table_id" : "20011221",
-                        "url" : "/modules/task/hads.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "BL_HADS_Form"
-                     },
-                     {
-                        "module_id" : "BL_HADS_Form",
-                        "table_id" : "20011221",
-                        "url" : "/modules/task/hads.form.html"
                      },
                      {
                         "module_id" : "BL_homecq",
@@ -324,21 +360,15 @@
                         "url" : "/modules/task/homecq.form.html"
                      },
                      {
-                        "module_id" : "BL_MMSE",
-                        "name" : "Mini-Mental State Examination (MMSE)",
-                        "table_id" : "20011223",
-                        "url" : "/modules/task/MMSE.html"
-                     },
-                     {
-                        "module_id" : "BL_PVT",
-                        "name" : "Psychomotor Vigilance Tests (PVT)",
+                        "module_id" : "BL_EVENING_PVT",
+                        "name" : "Evening Psychomotor Vigilance Tests (PVT)",
                         "table_id" : "20011224",
                         "url" : "/modules/task/PVT.html",
                         "counting" : "1"
                      },
                      {
                         "module_id" : "BL_Evening_KSS",
-                        "name" : "Karolinska Sleepiness Scale (KSS)",
+                        "name" : "Evening Sleepiness Scale (KSS)",
                         "table_id" : "20011225",
                         "url" : "/modules/task/kss.html",
                         "counting" : "1",
@@ -349,6 +379,12 @@
                         "module_id" : "BL_EVENING_KSS_FORM",
                         "table_id" : "20011225",
                         "url" : "/modules/task/kss.form.html"
+                     },
+                     {
+                        "module_id" : "BL_KDT_EVENING",
+                        "name" : "Evening Karolinska Drowsiness Test (KDT)",
+                        "table_id" : "",
+                        "url" : "/modules/task/File_upload.html"
                      }
                   ]
                },
@@ -357,7 +393,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set1_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 1 Practice",
+                        "name" : "Evening Memory Word Pairs Set 1 Practice",
                         "table_id" : "20011263",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
@@ -392,8 +428,8 @@
                   "modules" : [
                      {
                         "module_id" : "Set2_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 2 Practice",
-                        "table_id" : "20011130",
+                        "name" : "Evening Memory Word Pairs Set 2 Practice",
+                        "table_id" : "20011264",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
                      },
                      {
@@ -427,7 +463,7 @@
                   "modules" : [
                      {
                         "module_id" : "BL_Fingertapping_evening",
-                        "name" : "Baseline Evening Finger Tapping Task (12 minutes)",
+                        "name" : "Evening Finger Tapping Task (12 minutes)",
                         "table_id" : "20011234",
                         "url" : "/modules/task/finger_tapping_12.html",
                         "counting" : "1",
@@ -445,8 +481,14 @@
                   "name" : "Baseline Morning",
                   "modules" : [
                      {
+                        "module_id" : "BL_PSG",
+                        "name" : "Baseline HdEEG EDF ",
+                        "table_id" : "",
+                        "url" : "/modules/task/File_upload.html"
+                     },
+                     {
                         "module_id" : "BL_MORNING_KSS",
-                        "name" : "Karolinska Sleepiness Scale (KSS)",
+                        "name" : "Morning Karolinska Sleepiness Scale (KSS)",
                         "table_id" : "20011235",
                         "url" : "/modules/task/kss.html",
                         "counting" : "1",
@@ -459,8 +501,14 @@
                         "url" : "/modules/task/kss.form.html"
                      },
                      {
+                        "module_id" : "BL_MORNING_KDT",
+                        "name" : "Morning Karolinska Drowsiness Test (KDT)",
+                        "table_id" : "",
+                        "url" : "/modules/task/kdt.html"
+                     },
+                     {
                         "module_id" : "BL_Fingertapping_Morning",
-                        "name" : "Evening Morning Tapping Task (6 minutes)",
+                        "name" : "Morning Finger Tapping Task (6 minutes)",
                         "table_id" : "20011236",
                         "url" : "/modules/task/finger_tapping_6.html",
                         "counting" : "1",
@@ -471,6 +519,13 @@
                         "module_id" : "BL_Fingertapping_Morning_form",
                         "table_id" : "20011236",
                         "url" : "/modules/task/finger_tapping_6.form.html"
+                     },
+                     {
+                        "module_id" : "BL_MORNING_PVT",
+                        "name" : "Morning Psychomotor Vigilance Tests (PVT)",
+                        "table_id" : "",
+                        "url" : "/modules/task/PVT.html",
+                        "counting" : "1"
                      }
                   ]
                },
@@ -479,13 +534,13 @@
                   "modules" : [
                      {
                         "module_id" : "Morning_Memory_Set1",
-                        "name" : "Morning Memory Test Set 1",
+                        "name" : "Morning Memory Test Word Pairs Set 1",
                         "table_id" : "20011237",
                         "url" : "/modules/task/Set1_Morning_Wordpairs.html"
                      },
                      {
                         "module_id" : "Morning_Memory_Set2",
-                        "name" : "Morning Memory Test Set 2",
+                        "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011238",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
                      }
@@ -545,48 +600,6 @@
                         "url" : "/modules/task/Insomnia_Severity_Index.form.html"
                      },
                      {
-                        "module_id" : "FUP_PSQI",
-                        "name" : "Pittsburgh Sleep Quality Index (PSQI)",
-                        "table_id" : "20011243",
-                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "BL_PSQI_form"
-                     },
-                     {
-                        "module_id" : "FUP_PSQI_form",
-                        "table_id" : "20011243",
-                        "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
-                     },
-                     {
-                        "module_id" : "FUP_DASS",
-                        "name" : "Depression Anxiety Stress Scale (DASS-21)",
-                        "table_id" : "20011244",
-                        "url" : "/modules/task/dass.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "FUP_DASS_FORM"
-                     },
-                     {
-                        "module_id" : "FUP_DASS_FORM",
-                        "table_id" : "20011244",
-                        "url" : "/modules/task/dass.form.html"
-                     },
-                     {
-                        "module_id" : "FUP_HADS",
-                        "name" : "Hospital Anxiety Depression Scale (HADS)",
-                        "table_id" : "20011245",
-                        "url" : "/modules/task/hads.html",
-                        "counting" : "1",
-                        "quest" : "1",
-                        "form_module" : "FUP_HADS_Form"
-                     },
-                     {
-                        "module_id" : "FUP_HADS_Form",
-                        "table_id" : "20011245",
-                        "url" : "/modules/task/hads.form.html"
-                     },
-                     {
                         "module_id" : "FUP_homecq",
                         "name" : "Horne & Ostberg Morningness-Eveningness  Composite Questionnaire",
                         "table_id" : "20011246",
@@ -599,12 +612,6 @@
                         "module_id" : "FUP_homecq_form",
                         "table_id" : "20011246",
                         "url" : "/modules/task/homecq.form.html"
-                     },
-                     {
-                        "module_id" : "FUP_MMSE",
-                        "name" : "Mini-Mental State Examination (MMSE)",
-                        "table_id" : "20011247",
-                        "url" : "/modules/task/MMSE.html"
                      },
                      {
                         "module_id" : "FUP_PVT",
@@ -626,6 +633,11 @@
                         "module_id" : "FUP_KSS_FORM",
                         "table_id" : "20011249",
                         "url" : "/modules/task/kss.form.html"
+                     },
+                     {
+                        "module_id" : "FUP_EVENING_KDT",
+                        "table_id" : "",
+                        "url" : "/modules/task/kdt.html"
                      }
                   ]
                },
@@ -634,8 +646,8 @@
                   "modules" : [
                      {
                         "module_id" : "Set1_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 1 Practice",
-                        "table_id" : "20011130",
+                        "name" : "Evening Memory Word Pairs Set 1 Practice",
+                        "table_id" : "20011263",
                         "url" : "/modules/task/Set1_Evening_Wordpairs_Practice.html"
                      },
                      {
@@ -669,7 +681,7 @@
                   "modules" : [
                      {
                         "module_id" : "Set2_Memtest_practice",
-                        "name" : "Memory Word Pairs Set 2 Practice",
+                        "name" : "Evening Memory Word Pairs Set 2 Practice",
                         "table_id" : "20011264",
                         "url" : "/modules/task/Set2_evening_wordpairs_practice.html"
                      },
@@ -704,7 +716,7 @@
                   "modules" : [
                      {
                         "module_id" : "FU_Fingertapping_evening",
-                        "name" : "Follow Up Morning Finger Tapping Task (12 minutes)",
+                        "name" : "Evening Finger Tapping Task (12 minutes)",
                         "table_id" : "20011258",
                         "url" : "/modules/task/finger_tapping_12.html",
                         "counting" : "1",
@@ -737,7 +749,7 @@
                      },
                      {
                         "module_id" : "FU_Fingertapping_Morning",
-                        "name" : "Evening Finger Tapping Task (6 minutes)",
+                        "name" : "Morning Finger Tapping Task (6 minutes)",
                         "table_id" : "20011260",
                         "url" : "/modules/task/finger_tapping_6.html",
                         "counting" : "1",
@@ -748,6 +760,13 @@
                         "module_id" : "FU_Fingertapping_Morning_form",
                         "table_id" : "20011260",
                         "url" : "/modules/task/finger_tapping_6.form.html"
+                     },
+                     {
+                        "module_id" : "FUP_MORNING_PVT",
+                        "name" : "Morning Psychomotor Vigilance Tests (PVT)",
+                        "table_id" : "",
+                        "url" : "/modules/task/PVT.html",
+                        "counting" : "1"
                      }
                   ]
                },
@@ -756,13 +775,13 @@
                   "modules" : [
                      {
                         "module_id" : "Morning_Memory_Set1",
-                        "name" : "Morning Memory Test Set 1",
+                        "name" : "Morning Memory Test Word Pairs Set 1",
                         "table_id" : "20011261",
                         "url" : "/modules/task/Set1_Morning_Wordpairs.html"
                      },
                      {
                         "module_id" : "Morning_Memory_Set2",
-                        "name" : "Morning Memory Test Set 2",
+                        "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011262",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
                      }
