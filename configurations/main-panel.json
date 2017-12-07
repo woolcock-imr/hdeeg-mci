@@ -274,6 +274,20 @@
                         "module_id" : "SC_HADS_Form",
                         "table_id" : "",
                         "url" : "/modules/task/hads.form.html"
+                     },
+                     {
+                        "module_id" : "SC_ISI",
+                        "name" : "Insomnia Severity Index (ISI)",
+                        "table_id" : "",
+                        "url" : "/modules/task/Insomnia_Severity_Index.html",
+                        "counting" : "1",
+                        "quest" : "1",
+                        "form_module" : "SC_ISI_form"
+                     },
+                     {
+                        "module_id" : "SC_ISI_form",
+                        "table_id" : "",
+                        "url" : "/modules/task/Insomnia_Severity_Index.form.html"
                      }
                   ]
                }
@@ -543,6 +557,12 @@
                         "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011238",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
+                     },
+                     {
+                        "module_id" : "Memory_Scores",
+                        "name" : "Baseline Memory Task Score ",
+                        "table_id" : "",
+                        "url" : "/modules/task/Memory_Task_Scores.html"
                      }
                   ]
                }
