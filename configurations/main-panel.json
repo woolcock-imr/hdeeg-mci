@@ -131,7 +131,7 @@
                      {
                         "module_id" : "Concom_upload",
                         "name" : "Concomitant Medications File Upload",
-                        "table_id" : "",
+                        "table_id" : "20011348",
                         "url" : "/modules/task/File_upload.html"
                      }
                   ]
@@ -225,7 +225,7 @@
                      {
                         "module_id" : "SC_Visit_date",
                         "name" : "Visit Date",
-                        "table_id" : "",
+                        "table_id" : "20011349",
                         "url" : "/modules/task/Visit_date.html",
                         "counting" : "1"
                      },
@@ -234,37 +234,37 @@
                         "name" : "Pittsburgh Sleep Quality Index (PSQI) ",
                         "table_id" : "",
                         "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.html",
-                        "counting" : "",
-                        "quest" : "",
+                        "counting" : "20011350",
+                        "quest" : "1",
                         "form_module" : "SC_PSQI_Form"
                      },
                      {
                         "module_id" : "SC_PSQI_form",
-                        "table_id" : "",
+                        "table_id" : "20011350",
                         "url" : "/modules/task/Pittsburgh_Sleep_Quality_Index.form.html"
                      },
                      {
                         "module_id" : "Screening_GDS",
                         "name" : "Geriatric Depression Scale (GDS)",
-                        "table_id" : "",
+                        "table_id" : "20011351",
                         "url" : "/modules/task/file_upload.html"
                      },
                      {
                         "module_id" : "SC_MMSE",
                         "name" : "Mini-Mental State Examination (MMSE)",
-                        "table_id" : "",
+                        "table_id" : "20011352",
                         "url" : "/modules/task/MMSE.html"
                      },
                      {
                         "module_id" : "SC_WTAR",
                         "name" : "Wechsler Test of Adult Reading (WTAR)",
-                        "table_id" : "",
+                        "table_id" : "20011353",
                         "url" : "/modules/task/WTAR.html"
                      },
                      {
                         "module_id" : "SC_HADS",
                         "name" : "Hospital Anxiety Depression Scale (HADS) ",
-                        "table_id" : "",
+                        "table_id" : "20011354",
                         "url" : "/modules/task/hads.html",
                         "counting" : "1",
                         "quest" : "1",
@@ -272,8 +272,22 @@
                      },
                      {
                         "module_id" : "SC_HADS_Form",
-                        "table_id" : "",
+                        "table_id" : "20011354",
                         "url" : "/modules/task/hads.form.html"
+                     },
+                     {
+                        "module_id" : "SC_ISI",
+                        "name" : "Insomnia Severity Index (ISI)",
+                        "table_id" : "",
+                        "url" : "/modules/task/Insomnia_Severity_Index.html",
+                        "counting" : "1",
+                        "quest" : "1",
+                        "form_module" : "SC_ISI_form"
+                     },
+                     {
+                        "module_id" : "SC_ISI_form",
+                        "table_id" : "",
+                        "url" : "/modules/task/Insomnia_Severity_Index.form.html"
                      }
                   ]
                }
@@ -383,7 +397,7 @@
                      {
                         "module_id" : "BL_KDT_EVENING",
                         "name" : "Evening Karolinska Drowsiness Test (KDT)",
-                        "table_id" : "",
+                        "table_id" : "20011355",
                         "url" : "/modules/task/File_upload.html"
                      }
                   ]
@@ -483,7 +497,7 @@
                      {
                         "module_id" : "BL_PSG",
                         "name" : "Baseline HdEEG EDF ",
-                        "table_id" : "",
+                        "table_id" : "20011356",
                         "url" : "/modules/task/File_upload.html"
                      },
                      {
@@ -503,7 +517,7 @@
                      {
                         "module_id" : "BL_MORNING_KDT",
                         "name" : "Morning Karolinska Drowsiness Test (KDT)",
-                        "table_id" : "",
+                        "table_id" : "20011357",
                         "url" : "/modules/task/kdt.html"
                      },
                      {
@@ -523,7 +537,7 @@
                      {
                         "module_id" : "BL_MORNING_PVT",
                         "name" : "Morning Psychomotor Vigilance Tests (PVT)",
-                        "table_id" : "",
+                        "table_id" : "20011358",
                         "url" : "/modules/task/PVT.html",
                         "counting" : "1"
                      }
@@ -543,6 +557,12 @@
                         "name" : "Morning Memory Test Word Pairs Set 2",
                         "table_id" : "20011238",
                         "url" : "/modules/task/Set2_Morning_Wordpairs.html"
+                     },
+                     {
+                        "module_id" : "Memory_Scores",
+                        "name" : "Baseline Memory Task Score ",
+                        "table_id" : "20011359",
+                        "url" : "/modules/task/Memory_Task_Scores.html"
                      }
                   ]
                }
